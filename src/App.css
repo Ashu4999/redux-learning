@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container p {
+    font-size: 30px;
+    margin: 0;
+}
+
+.container .btnGrpup {
+    display: flex;
+    gap: 10px;
+}
+
+.container .btnGrpup button {
+    font-size: 30px;
+}
+
+.container input {
+    font-size: 30px;
+    text-align: center;
+    width: 250px;
+}
